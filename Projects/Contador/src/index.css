@@ -1,0 +1,25 @@
+body{
+  margin:0;
+  background:  #222;
+  font-family: system-ui;
+  display:grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.btnClick {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+}
+
+.btnReiniciar {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+}
+div{
+  background-color: white;
+}
