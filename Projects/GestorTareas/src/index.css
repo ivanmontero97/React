@@ -1,0 +1,63 @@
+body, * {
+    cursor: default !important;
+  }
+  
+body{
+    margin:0;
+    background:  #222;
+    font-family: system-ui;
+    display:grid;
+    place-content: center;
+    min-height: 100vh;
+    font-size: large;
+
+  }
+  h1{
+    color: white;
+  }
+  .Tareas{
+    margin-top: 8px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+  }
+  .tasca{
+    display:flex;
+    justify-content:space-between;
+    align-content: center;
+    border-radius: 10px;
+    height:20px;
+    color:white;
+    font-weight: 600;
+    padding:2px;
+  }
+  .tascaCompletada{
+    background-color: rgb(69, 112, 3);
+    text-decoration: line-through;
+  }
+  .tascaIncompletada{
+    background-color: rgb(230, 31, 31);
+  }
+  .trash{
+    color:black;
+    margin:2px;
+  }
+  .trash :hover {
+    cursor:pointer !important;
+  }
+
+  .inputForm {
+    color:black;
+    font-weight: 600;
+    border-radius: 10px;
+    height:20px;
+  }
+
+  .buttonForm{
+    color:black;
+    font-weight: 600;
+    border-radius: 10px;
+    height:20px;
+    margin:5px;
+    background-color: blueviolet;
+  }

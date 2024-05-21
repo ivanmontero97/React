@@ -19,7 +19,7 @@ export function App(){
 
     return(
         <React.Fragment>
-             <div>Contador: {numClics}</div>
+            <div>Contador: {numClics}</div>
             <Button onClick={incrementNum} esClick={true}>Clicar</Button>
             <Button onClick={reiniciarNum}  esClick={false}>Reiniciar</Button>
         </React.Fragment>
