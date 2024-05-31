@@ -1,0 +1,15 @@
+#containerIndex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#containerIndex > * {
+    margin:2%;
+}
+
+img{
+    border-radius: 30%;
+    max-height:50%;
+    max-width:50%;
+
+}

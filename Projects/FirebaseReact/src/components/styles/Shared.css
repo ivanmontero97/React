@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    background: #222;
+    font-family: system-ui;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+  }
+  body > * {
+    font-family:sans-serif;
+  }
+  
+  .card {
+    background-color: rgb(11, 11, 198);
+    width: 30vw; 
+    margin: 0 auto; 
+    padding: 20px; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:5%;
+    box-shadow: 5px 10px 8px #888888;
+
+  }
+  h1,h2,h4 {
+    color:aliceblue;
+    text-shadow:10px 5px 10px #888888;
+    ;
+  }
+  
+  p{
+    color:aliceblue;
+  }
+  label{
+    color:aliceblue;
+    font-weight: bold;
+    text-shadow:5px 5px 5px #222;
+}
+  a {
+    color: white;
+    font-weight:bold;
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: color .2s;
+
+  }
+  a:hover{
+    cursor:pointer;
+    color: rgb(233, 151, 151);
+    transform:scale(1.2);
+  }
+
+  button{
+    color:blue;
+    font-weight: bold;
+    font-size: medium;
+    background-color: rgb(33, 223, 220);
+    width: auto;
+    border: 2.5px solid blue;
+    transition: background-color .2s;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px #0d0d0d;
+
+  }
+  button:hover{
+    cursor:pointer;
+    transform: scale(1.2);
+    background-color: rgb(28, 192, 121);
+}
+  input {
+    background-color: rgb(60, 139, 230);
+    margin:2%;
+    border-radius: 10%;
+    box-shadow: 5px 10px 8px rgb(12, 12, 59);
+    border-radius:5%;
+    width: 50%;
+    color: white;
+    font-weight:bold;
+    text-align: center;
+  }
+  input:hover{
+    transform:scale(1.2);
+    border: 0px;
+    cursor:pointer;
+  }
+  .error {
+    color:rgb(210, 62, 65);
+    font-weight: bold;
+    font-size: large;
+    margin:2%;
+  }
+  .success {
+    color:rgb(62, 210, 64);
+    font-weight: bold;
+    font-size: large;
+  }
+  @media (max-width: 768px) {
+    .card {
+      width: calc(40vh - 20px); 
+    }
+  }
+  

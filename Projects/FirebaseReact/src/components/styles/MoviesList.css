@@ -1,0 +1,20 @@
+.cardListMovies{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(11, 11, 198);
+    border-radius:5%;
+    box-shadow: 5px 10px 8px #888888;
+    margin: 1%;
+    padding: 1%;
+}
+.listado-pelis{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:0px;
+}
+.listado-pelis > .movieCard {
+    margin:20px;
+}
